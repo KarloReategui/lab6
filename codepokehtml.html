@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>POKEAPI</title>
+    </head>
+<body>
+        <h1>{{nombre}}</h1>
+    <h1>Lista de Tipos: </h1>
+    <ul>
+        {% for tipis in tipis %}
+        <li>{{tipis}}</li>
+        {% endfor%}
+    </ul>
+    <h1>Lista de Movimientos: </h1>
+    <ul>
+        {% for movimi in movimi %}
+        <li>{{movimi}}</li>
+        {% endfor%}
+    </ul>
+    <h1>Sprites: </h1>
+    <img src="{{response}}">
+    <img src="{{response2}}">
+    <img src="{{response3}}">
+    <img src="{{response4}}">
+
+</body>
